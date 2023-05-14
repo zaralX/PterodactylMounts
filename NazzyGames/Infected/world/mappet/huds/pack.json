@@ -1,0 +1,52 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Texture": "b.a:image/skins/packbar_background.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.8f,
+                0.8f,
+                0.8f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                -2.45f,
+                0.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Top": 90,
+                "Bottom": 1,
+                "Animation": {
+                    "Interp": 3,
+                    "Animates": 1b
+                },
+                "Texture": "b.a:image/skins/packbar_main.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.8f,
+                0.8f,
+                0.8f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                -2.45f,
+                0.0f,
+                0.0f
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "Triggers": {
+        "player_close_container": {
+            "Blocks": [
+            ]
+        },
+        "entity_death": {
+            "Blocks": [
+            ]
+        },
+        "server_load": {
+            "Blocks": [
+            ]
+        },
+        "player_journal": {
+            "Blocks": [
+            ]
+        },
+        "player_respawn": {
+            "Blocks": [
+            ]
+        },
+        "block_place": {
+            "Blocks": [
+            ]
+        },
+        "server_tick": {
+            "Blocks": [
+            ]
+        },
+        "entity_damaged": {
+            "Blocks": [
+            ]
+        },
+        "player_lmb": {
+            "Blocks": [
+            ]
+        },
+        "block_click": {
+            "Blocks": [
+            ]
+        },
+        "block_interact": {
+            "Blocks": [
+            ]
+        },
+        "player_login": {
+            "Blocks": [
+            ]
+        },
+        "block_break": {
+            "Blocks": [
+            ]
+        },
+        "player_rmb": {
+            "Blocks": [
+            ]
+        },
+        "player_chat": {
+            "Blocks": [
+            ]
+        },
+        "player_death": {
+            "Blocks": [
+            ]
+        },
+        "player_item_pickup": {
+            "Blocks": [
+            ]
+        }
+    },
+    "Hotkeys": {
+        "Hotkeys": [
+        ]
+    }
+}

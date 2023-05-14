@@ -1,0 +1,29 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Animation": {
+                    "Interp": 6
+                },
+                "Texture": "https://media.discordapp.net/attachments/697720319833538622/912671644508647504/square.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                7.25f,
+                7.25f,
+                7.25f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.0f,
+                -0.656f
+            ]
+        }
+    ]
+}

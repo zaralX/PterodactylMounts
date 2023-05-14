@@ -1,0 +1,28 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": 1593835520,
+                "Max": 62,
+                "Label": "Стадия: [e0[f/7 [fВремя: 00:00",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.25f,
+                0.25f,
+                0.25f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                -2.3125f,
+                2.3125f,
+                0.0f
+            ]
+        }
+    ]
+}

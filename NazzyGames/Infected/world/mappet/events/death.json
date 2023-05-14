@@ -1,0 +1,65 @@
+{
+    "Main": "02b3b480-69eb-4b41-b1f5-0d1602c20049",
+    "Nodes": [
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 1,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 4,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "infected",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 62,
+            "Title": "infected?",
+            "Y": -42,
+            "Relations": [
+                "aff2a0ca-b7f1-4815-93df-85a637351571",
+                "99c368be-77c5-4868-bff8-8ef51ed4f917"
+            ],
+            "Id": "02b3b480-69eb-4b41-b1f5-0d1602c20049",
+            "Binary": 1b
+        },
+        {
+            "Type": "command",
+            "Command": "say infected died",
+            "X": -104,
+            "Title": "",
+            "Y": 148,
+            "Relations": [
+                "e1a209ae-5a45-4ea5-8e99-843472f359ab"
+            ],
+            "Id": "aff2a0ca-b7f1-4815-93df-85a637351571"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp state set @s status death",
+            "X": 56,
+            "Title": "",
+            "Y": 258,
+            "Id": "e1a209ae-5a45-4ea5-8e99-843472f359ab"
+        },
+        {
+            "Type": "command",
+            "Command": "say not an infected",
+            "X": 226,
+            "Title": "",
+            "Y": 154,
+            "Relations": [
+                "e1a209ae-5a45-4ea5-8e99-843472f359ab"
+            ],
+            "Id": "99c368be-77c5-4868-bff8-8ef51ed4f917"
+        }
+    ]
+}

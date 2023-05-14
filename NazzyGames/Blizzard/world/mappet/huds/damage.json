@@ -1,0 +1,82 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 10,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": {
+                                "S": [
+                                    5.0f,
+                                    5.0f,
+                                    5.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b
+                            },
+                            "Texture": "https://media.discordapp.net/attachments/697720319833538622/914080617061306368/damage.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 0.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b,
+                                "Duration": 5
+                            },
+                            "Texture": "https://media.discordapp.net/attachments/697720319833538622/914080617061306368/damage.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 5.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Pose": {
+                                "S": [
+                                    5.0f,
+                                    5.0f,
+                                    5.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b,
+                                "Duration": 5
+                            },
+                            "Texture": "https://media.discordapp.net/attachments/697720319833538622/914080617061306368/damage.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 5.0f
+                    }
+                ],
+                "Name": "sequencer"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                3.0f,
+                3.0f,
+                3.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                1.0f
+            ]
+        }
+    ]
+}

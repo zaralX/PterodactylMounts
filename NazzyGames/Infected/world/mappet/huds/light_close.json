@@ -1,0 +1,64 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 10,
+            "Ortho": 0b,
+            "Morph": {
+                "Loop": 1,
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 5
+                            },
+                            "Texture": "https://media.discordapp.net/attachments/697720319833538622/979389448892588054/flashlight.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 5.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 16777215,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 5
+                            },
+                            "Texture": "https://media.discordapp.net/attachments/697720319833538622/979389448892588054/flashlight.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 5.0f,
+                        "EndPoint": 1b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                5.3f,
+                5.3f,
+                5.3f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                0.0f
+            ]
+        }
+    ]
+}

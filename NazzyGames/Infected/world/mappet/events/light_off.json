@@ -1,0 +1,46 @@
+{
+    "Main": "cc9fe2d9-8a8d-41ad-92bc-0be195ef512c",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/light 0",
+            "X": 52,
+            "Title": "",
+            "Y": -226,
+            "Relations": [
+                "9c9a35a5-5dc5-4e32-9bfd-43bc33c64c61"
+            ],
+            "Id": "1f340e23-e3d3-4532-808b-e119b7e72491"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp event trigger ~ light",
+            "X": 56,
+            "Title": "",
+            "Y": 72,
+            "Id": "6146dbbf-6e71-4aca-947d-589bc7f56567"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp state set ~ light_on 0",
+            "X": 52,
+            "Title": "",
+            "Y": -380,
+            "Relations": [
+                "1f340e23-e3d3-4532-808b-e119b7e72491"
+            ],
+            "Id": "cc9fe2d9-8a8d-41ad-92bc-0be195ef512c"
+        },
+        {
+            "Type": "timer",
+            "Timer": 10,
+            "X": 52,
+            "Title": "",
+            "Y": -80,
+            "Relations": [
+                "6146dbbf-6e71-4aca-947d-589bc7f56567"
+            ],
+            "Id": "9c9a35a5-5dc5-4e32-9bfd-43bc33c64c61"
+        }
+    ]
+}

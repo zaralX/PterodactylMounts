@@ -1,0 +1,62 @@
+{
+    "Main": "a47a9881-a83d-46d8-ad25-b6bcba795a08",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/mp hud close @a[mpe=infected==0] light",
+            "X": -64,
+            "Title": "",
+            "Y": 14,
+            "Relations": [
+                "3bbfd2f8-443d-4e1b-9702-6ca67811b3de"
+            ],
+            "Id": "b531cfd3-f0d3-4786-827f-f1d9c748c258"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp hud setup @a[mpe=infected==0] light",
+            "X": 276,
+            "Title": "",
+            "Y": 10,
+            "Id": "61d0302e-2afb-450a-aad0-5aa492f33f0c"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 4,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "light_on",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 114,
+            "Title": "light on?",
+            "Y": -172,
+            "Relations": [
+                "b531cfd3-f0d3-4786-827f-f1d9c748c258",
+                "61d0302e-2afb-450a-aad0-5aa492f33f0c"
+            ],
+            "Id": "a47a9881-a83d-46d8-ad25-b6bcba795a08",
+            "Binary": 1b
+        },
+        {
+            "Type": "command",
+            "Command": "/mp hud setup @a[mpe=infected==0] light_close",
+            "X": -64,
+            "Title": "",
+            "Y": 160,
+            "Id": "3bbfd2f8-443d-4e1b-9702-6ca67811b3de"
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 95,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            -21.25f
+                                        ],
+                                        "S": [
+                                            0.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Lighting": 0b,
+                                        "Shadow": 0b,
+                                        "Texture": "https://media.discordapp.net/attachments/697720319833538622/915258632940167220/class.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 10.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Lighting": 0b,
+                                        "Shadow": 0b,
+                                        "Texture": "https://media.discordapp.net/attachments/697720319833538622/915258632940167220/class.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    }
+                                },
+                                {
+                                    "T": [
+                                        0.12f,
+                                        -0.18f,
+                                        -0.003f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Color": 16740864,
+                                        "Label": "ОБОРОНА",
+                                        "Shadow": 1b,
+                                        "ShadowY": 0.0f,
+                                        "ShadowX": 0.4f,
+                                        "Name": "label",
+                                        "Offset": 0.0f
+                                    }
+                                },
+                                {
+                                    "T": [
+                                        0.0f,
+                                        0.093f,
+                                        -0.01f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Color": 43519,
+                                        "Label": "РАЗВЕДЧИК",
+                                        "Shadow": 1b,
+                                        "ShadowY": -0.1f,
+                                        "ShadowX": 0.5f,
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 10.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Animates": 1b,
+                                "Duration": 70
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                        "S": [
+                                            1.1f,
+                                            1.1f,
+                                            1.1f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Lighting": 0b,
+                                        "Shadow": 0b,
+                                        "Texture": "https://media.discordapp.net/attachments/697720319833538622/915258632940167220/class.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    }
+                                },
+                                {
+                                    "T": [
+                                        0.12f,
+                                        -0.18f,
+                                        -0.003f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Color": 16740864,
+                                        "Label": "ОБОРОНА",
+                                        "Shadow": 1b,
+                                        "ShadowY": 0.0f,
+                                        "ShadowX": 0.4f,
+                                        "Name": "label",
+                                        "Offset": 0.0f
+                                    }
+                                },
+                                {
+                                    "T": [
+                                        0.0f,
+                                        0.093f,
+                                        -0.01f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Color": 43519,
+                                        "Label": "РАЗВЕДЧИК",
+                                        "Shadow": 1b,
+                                        "ShadowY": -0.1f,
+                                        "ShadowX": 0.5f,
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 70.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b,
+                                "Duration": 5
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                        "S": [
+                                            0.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Lighting": 0b,
+                                        "Shadow": 0b,
+                                        "Texture": "https://media.discordapp.net/attachments/697720319833538622/915258632940167220/class.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 5.0f
+                    }
+                ],
+                "Name": "sequencer"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                1.75f,
+                1.75f,
+                1.75f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.188f,
+                0.0f
+            ]
+        }
+    ]
+}

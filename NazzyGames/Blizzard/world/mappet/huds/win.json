@@ -1,0 +1,269 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 110,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b,
+                                "Duration": 5
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                        "S": [
+                                            0.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Lighting": 0b,
+                                        "Texture": "https://media.discordapp.net/attachments/697720319833538622/914088338040967179/square_win.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    }
+                                },
+                                {
+                                    "S": [
+                                        0.9f,
+                                        0.9f,
+                                        0.9f
+                                    ],
+                                    "T": [
+                                        0.0f,
+                                        0.125f,
+                                        -0.01f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Label": "0 : 0",
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 5.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Lighting": 0b,
+                                        "Texture": "https://media.discordapp.net/attachments/697720319833538622/914088338040967179/square_win.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    }
+                                },
+                                {
+                                    "S": [
+                                        0.9f,
+                                        0.9f,
+                                        0.9f
+                                    ],
+                                    "T": [
+                                        0.0f,
+                                        0.125f,
+                                        -0.01f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Label": "0 : 0",
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 10.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Animates": 1b,
+                                "Duration": 80
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                        "S": [
+                                            1.1f,
+                                            1.1f,
+                                            1.1f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Lighting": 0b,
+                                        "Texture": "https://media.discordapp.net/attachments/697720319833538622/914088338040967179/square_win.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    }
+                                },
+                                {
+                                    "S": [
+                                        0.9f,
+                                        0.9f,
+                                        0.9f
+                                    ],
+                                    "T": [
+                                        0.0f,
+                                        0.125f,
+                                        -0.01f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Label": "0 : 0",
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 80.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b,
+                                "Duration": 5
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                        "P": [
+                                            0.0f,
+                                            0.0f,
+                                            50.0f
+                                        ],
+                                        "S": [
+                                            0.0f,
+                                            0.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Lighting": 0b,
+                                        "Texture": "https://media.discordapp.net/attachments/697720319833538622/914088338040967179/square_win.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    }
+                                },
+                                {
+                                    "S": [
+                                        0.9f,
+                                        0.9f,
+                                        0.9f
+                                    ],
+                                    "T": [
+                                        0.0f,
+                                        0.125f,
+                                        -0.01f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Label": "0 : 0",
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 5.0f
+                    }
+                ],
+                "Name": "sequencer"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.5f,
+                0.5f,
+                0.5f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.2f,
+                1.375f
+            ]
+        }
+    ]
+}

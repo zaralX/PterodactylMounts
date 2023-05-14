@@ -1,0 +1,49 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 80,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": 1879048192,
+                "Label": "   Наступила стадия: [e1   ",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.3f,
+                0.3f,
+                0.3f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.1f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 81,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": -2147483648,
+                "Max": 150,
+                "Label": "Задачи из прошлой стадии были [2успешно [fвыполнены.",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.3f,
+                0.3f,
+                0.3f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.95f,
+                0.0f
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 20,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Background": -2147483648,
+                            "Color": 16726071,
+                            "Label": "Перезагрузка",
+                            "Name": "label"
+                        },
+                        "Duration": 5.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Background": -2147483648,
+                            "Label": "Перезагрузка.",
+                            "Name": "label"
+                        },
+                        "Duration": 5.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Background": -2147483648,
+                            "Color": 16726071,
+                            "Label": "Перезагрузка..",
+                            "Name": "label"
+                        },
+                        "Duration": 5.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Background": -2147483648,
+                            "Label": "Перезагрузка...",
+                            "Name": "label"
+                        },
+                        "Duration": 5.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.3f,
+                0.3f,
+                0.3f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.9f,
+                0.0f
+            ]
+        }
+    ]
+}

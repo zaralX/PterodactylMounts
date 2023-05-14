@@ -1,0 +1,23 @@
+{
+    "terminal4_cooldown": 0.0d,
+    "in_game": 0.0d,
+    "terminal1_cooldown": 0.0d,
+    "distributors": 15.0d,
+    "checker_spawn": 0.0d,
+    "time_freeze": 1.0d,
+    "gates_num": 1.0d,
+    "light_on": 1.0d,
+    "vote_time": -1.0d,
+    "terminal2_cooldown": 0.0d,
+    "valve_1": 360.0d,
+    "can_vote": 1.0d,
+    "syringe_spawn": 0.0d,
+    "stage": 0.0d,
+    "players_speaked": -1.0d,
+    "time_exit": -1.0d,
+    "terminal3_cooldown": 0.0d,
+    "players_alive": 0.0d,
+    "time": 152.0d,
+    "code_exit": 89946.0d,
+    "tasks": 0.0d
+}

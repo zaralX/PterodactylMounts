@@ -1,0 +1,194 @@
+{
+    "Main": "07c99878-545e-4e00-9a8c-1220a829617d",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_large ambient @a -1002 22 -1624 1 1",
+            "X": -91,
+            "Title": "",
+            "Y": 777,
+            "Id": "c9b06ef4-e961-4007-831b-d7b4dec13bcc"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_room ambient @a -1026 24 -1638 2 1",
+            "X": -87,
+            "Title": "",
+            "Y": -368,
+            "Id": "8cf35945-7ee3-43e4-8863-7c0f8fb946a5"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_transformer ambient @a -963 22 -1630 1 1",
+            "X": 692,
+            "Title": "",
+            "Y": 253,
+            "Id": "f0f24d23-d871-4da8-909a-2af245bf43bc"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_large ambient @a -996 22 -1637 1 1",
+            "X": -88,
+            "Title": "",
+            "Y": 951,
+            "Id": "7e777b4f-3ed8-4c6d-910d-9b519ab3bf47"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_room ambient @a -989 23 -1618 1 1",
+            "X": -67,
+            "Title": "",
+            "Y": 1304,
+            "Id": "c4c7014b-f141-4462-85f0-93bb891a9ad8"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_room ambient @a -981 20 -1637 1 1",
+            "X": -51,
+            "Title": "",
+            "Y": 1663,
+            "Id": "1f694024-3470-4285-a539-e06bb0a922a5"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_distributor ambient @a -1002 22 -1612 0.5 1",
+            "X": -90,
+            "Title": "",
+            "Y": 170,
+            "Id": "ae00f3ea-88c6-4e76-b0ec-810a9929c6d2"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_distributor ambient @a -1006 21 -1638 0.5 1",
+            "X": -90,
+            "Title": "",
+            "Y": 423,
+            "Id": "270b66c1-fd52-4b01-9a2e-d9869c2c88f1"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_large ambient @a -979 23 -1616 2 1",
+            "X": -58,
+            "Title": "",
+            "Y": 1480,
+            "Id": "c944b89b-47ef-448e-85c6-1c879e1d14ef"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_transformer ambient @a -998 20 -1646 1 1",
+            "X": -90,
+            "Title": "",
+            "Y": -191,
+            "Id": "2d2422a7-7413-46d8-9de0-3efb9515274b"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_large ambient @a -982 24 -1650 2 1",
+            "X": -90,
+            "Title": "",
+            "Y": -7,
+            "Id": "0ba3986d-1ae2-4767-a779-f87563dfddaa"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_void ambient @a -1011 17 -1651 1 1",
+            "X": -94,
+            "Title": "",
+            "Y": 585,
+            "Id": "fa9c6850-6f0b-4a20-a532-e289a81a27b2"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "in_game",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 365,
+            "Title": "in_game = 1?",
+            "Y": 198,
+            "Relations": [
+                "ae00f3ea-88c6-4e76-b0ec-810a9929c6d2",
+                "046c4d7e-095b-4f7e-8d70-963d75eee28e",
+                "270b66c1-fd52-4b01-9a2e-d9869c2c88f1",
+                "fa9c6850-6f0b-4a20-a532-e289a81a27b2",
+                "c9b06ef4-e961-4007-831b-d7b4dec13bcc",
+                "7e777b4f-3ed8-4c6d-910d-9b519ab3bf47",
+                "c5559f8b-fde0-4bd7-8084-58a003cf133a",
+                "f0f24d23-d871-4da8-909a-2af245bf43bc",
+                "efd66dfa-ee91-43d1-be80-72048c58f6ad",
+                "c4c7014b-f141-4462-85f0-93bb891a9ad8",
+                "c944b89b-47ef-448e-85c6-1c879e1d14ef",
+                "1f694024-3470-4285-a539-e06bb0a922a5",
+                "0ba3986d-1ae2-4767-a779-f87563dfddaa",
+                "2d2422a7-7413-46d8-9de0-3efb9515274b",
+                "8cf35945-7ee3-43e4-8863-7c0f8fb946a5",
+                "2ebb2cc7-938e-4d45-8653-3e43081ffa26",
+                "46deb5b1-d8a4-40c4-b88a-d4e1f3f366aa",
+                "916bffdf-d440-48b1-9ece-8b1a0c3f7075"
+            ],
+            "Id": "07c99878-545e-4e00-9a8c-1220a829617d"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_room ambient @a -984 23 -1624 1 1",
+            "X": -77,
+            "Title": "",
+            "Y": 1124,
+            "Id": "c5559f8b-fde0-4bd7-8084-58a003cf133a"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_distributor ambient @a -972 21 -1630 0.5 1",
+            "X": -92,
+            "Title": "",
+            "Y": 296,
+            "Id": "046c4d7e-095b-4f7e-8d70-963d75eee28e"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_large ambient @a -986 23 -1606 2 1",
+            "X": -87,
+            "Title": "",
+            "Y": -871,
+            "Id": "916bffdf-d440-48b1-9ece-8b1a0c3f7075"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_transformer ambient @a -1017 22 -1607 1 1",
+            "X": 695,
+            "Title": "",
+            "Y": 420,
+            "Id": "efd66dfa-ee91-43d1-be80-72048c58f6ad"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_void ambient @a -1017 15 -1614 1 1",
+            "X": -87,
+            "Title": "",
+            "Y": -705,
+            "Id": "46deb5b1-d8a4-40c4-b88a-d4e1f3f366aa"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:infctd.ambience.amb_large ambient @a -1028 24 -1627 2 1",
+            "X": -87,
+            "Title": "",
+            "Y": -532,
+            "Id": "2ebb2cc7-938e-4d45-8653-3e43081ffa26"
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 80,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Pose": {
+                                "S": [
+                                    0.0f,
+                                    0.0f,
+                                    0.0f
+                                ]
+                            },
+                            "Shadow": 0b,
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b
+                            },
+                            "Texture": "https://media.discordapp.net/attachments/697720319833538622/912729208818663464/triangle.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 0.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Shadow": 0b,
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b
+                            },
+                            "Texture": "https://media.discordapp.net/attachments/697720319833538622/912729208818663464/triangle.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 10.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Pose": {
+                                "S": [
+                                    1.1f,
+                                    1.1f,
+                                    1.1f
+                                ]
+                            },
+                            "Shadow": 0b,
+                            "Animation": {
+                                "Animates": 1b,
+                                "Duration": 60
+                            },
+                            "Texture": "https://media.discordapp.net/attachments/697720319833538622/912729208818663464/triangle.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 60.0f
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Pose": {
+                                "P": [
+                                    0.0f,
+                                    0.0f,
+                                    1.781f
+                                ],
+                                "S": [
+                                    2.0f,
+                                    2.0f,
+                                    2.0f
+                                ]
+                            },
+                            "Shadow": 0b,
+                            "Animation": {
+                                "Interp": 6,
+                                "Animates": 1b
+                            },
+                            "Texture": "https://media.discordapp.net/attachments/697720319833538622/912729208818663464/triangle.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 10.0f
+                    }
+                ],
+                "Name": "sequencer"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.5f,
+                0.5f,
+                0.5f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.2f,
+                1.375f
+            ]
+        }
+    ]
+}
