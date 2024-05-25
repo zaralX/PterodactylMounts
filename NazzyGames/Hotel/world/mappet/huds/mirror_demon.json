@@ -1,0 +1,199 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 4,
+            "Ortho": 0b,
+            "Morph": {
+                "Actions": {
+                    "running": "running_flying",
+                    "sprinting": {
+                        "Speed": 2.0f,
+                        "Name": "running_flying"
+                    },
+                    "idle": "idle_flying"
+                },
+                "Pose": {
+                    "Pose": {
+                        "armRB": {
+                        },
+                        "hairR1": {
+                        },
+                        "skirtF": {
+                        },
+                        "hairR2": {
+                        },
+                        "hairF": {
+                        },
+                        "hairR3": {
+                        },
+                        "hairL1": {
+                        },
+                        "hairL2": {
+                        },
+                        "hairL3": {
+                        },
+                        "head": {
+                            "SX": 0.85f,
+                            "SY": 0.85f,
+                            "SZ": 0.85f
+                        },
+                        "hairB1": {
+                        },
+                        "hairB2": {
+                        },
+                        "armRT": {
+                        },
+                        "feetRB": {
+                        },
+                        "handL": {
+                        },
+                        "skirtB": {
+                        },
+                        "armLB": {
+                        },
+                        "legRB": {
+                        },
+                        "handR": {
+                        },
+                        "legLB": {
+                        },
+                        "armLT": {
+                        },
+                        "feetLB": {
+                        },
+                        "bodyT": {
+                        },
+                        "legRT": {
+                        },
+                        "legLT": {
+                        },
+                        "bodyB": {
+                        },
+                        "feetLT": {
+                        },
+                        "feetRT": {
+                        },
+                        "base": {
+                            "SX": 0.75f,
+                            "SY": 0.75f,
+                            "SZ": 0.75f
+                        }
+                    }
+                },
+                "Skin": [
+                    {
+                        "Path": "c.s:hotelgirl1/skins/hotelgirl1.png",
+                        "Color": 1862270975
+                    }
+                ],
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            180.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            1.25f,
+                            0.0f
+                        ],
+                        "Limb": "base",
+                        "Morph": {
+                            "List": [
+                                {
+                                    "Random": 0.0f,
+                                    "SetDuration": 0b,
+                                    "Morph": {
+                                        "RemoveParentSpace": 1b,
+                                        "Top": -160,
+                                        "Lighting": 0b,
+                                        "Color": 1979711487,
+                                        "Bottom": -90,
+                                        "Billboard": 1b,
+                                        "Texture": "b.a:1_HOTEL/sprites/glitch.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    },
+                                    "Duration": 2.0f,
+                                    "EndPoint": 0b
+                                },
+                                {
+                                    "Random": 0.0f,
+                                    "SetDuration": 0b,
+                                    "Morph": {
+                                        "RemoveParentSpace": 1b,
+                                        "Top": -160,
+                                        "Lighting": 0b,
+                                        "Color": 1979711487,
+                                        "Pose": {
+                                            "S": [
+                                                1.1f,
+                                                -1.0f,
+                                                1.0f
+                                            ]
+                                        },
+                                        "Bottom": -90,
+                                        "Billboard": 1b,
+                                        "OffsetY": 50.0f,
+                                        "Texture": "b.a:1_HOTEL/sprites/glitch.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    },
+                                    "Duration": 2.0f,
+                                    "EndPoint": 0b
+                                },
+                                {
+                                    "Random": 0.0f,
+                                    "SetDuration": 0b,
+                                    "Morph": {
+                                        "RemoveParentSpace": 1b,
+                                        "Top": -160,
+                                        "Lighting": 0b,
+                                        "Color": 1979711487,
+                                        "Pose": {
+                                            "S": [
+                                                -1.0f,
+                                                1.0f,
+                                                1.0f
+                                            ]
+                                        },
+                                        "Bottom": -90,
+                                        "Billboard": 1b,
+                                        "Texture": "b.a:1_HOTEL/sprites/glitch.png",
+                                        "Shaded": 0b,
+                                        "Name": "blockbuster.image"
+                                    },
+                                    "Duration": 2.0f,
+                                    "EndPoint": 0b
+                                }
+                            ],
+                            "Name": "sequencer",
+                            "Offset": [
+                                0.0f,
+                                0.0f,
+                                0.0f
+                            ]
+                        }
+                    }
+                ],
+                "Name": "chameleon.hotelgirl1"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                2.0f,
+                2.0f,
+                2.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                -1.875f,
+                0.0f
+            ]
+        }
+    ],
+    "Global": 0b
+}

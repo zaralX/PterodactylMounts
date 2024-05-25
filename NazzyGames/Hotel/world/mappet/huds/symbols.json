@@ -1,0 +1,283 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 8,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Pose": {
+                                "P": [
+                                    0.0f,
+                                    -0.25f,
+                                    0.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 1
+                            },
+                            "Texture": "ht:textures/blocks/symbol1.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Pose": {
+                                "P": [
+                                    -0.25f,
+                                    0.0f,
+                                    0.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 1
+                            },
+                            "Texture": "ht:textures/blocks/symbol2.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Pose": {
+                                "P": [
+                                    0.25f,
+                                    0.0f,
+                                    0.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 1
+                            },
+                            "Texture": "ht:textures/blocks/symbol3.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Pose": {
+                                "P": [
+                                    0.0f,
+                                    0.25f,
+                                    0.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 1
+                            },
+                            "Texture": "ht:textures/blocks/symbol4.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                0.032f
+            ]
+        },
+        {
+            "Expire": 10,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 0,
+                            "Pose": {
+                                "S": [
+                                    6.0f,
+                                    6.0f,
+                                    6.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 0
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/white_blank.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 0.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 1140850688,
+                            "Pose": {
+                                "S": [
+                                    6.0f,
+                                    6.0f,
+                                    6.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 2
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/white_blank.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 1157562368,
+                            "Pose": {
+                                "S": [
+                                    6.0f,
+                                    6.0f,
+                                    6.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 2
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/white_blank.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 1140850688,
+                            "Pose": {
+                                "S": [
+                                    6.0f,
+                                    6.0f,
+                                    6.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 2
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/white_blank.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 1157627903,
+                            "Pose": {
+                                "S": [
+                                    6.0f,
+                                    6.0f,
+                                    6.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 2
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/white_blank.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 0,
+                            "Pose": {
+                                "S": [
+                                    6.0f,
+                                    6.0f,
+                                    6.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 2
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/white_blank.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                0.033f
+            ]
+        }
+    ],
+    "Global": 0b
+}

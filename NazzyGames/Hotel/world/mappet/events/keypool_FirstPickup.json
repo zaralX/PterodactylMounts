@@ -1,0 +1,52 @@
+{
+    "Main": "0c348895-48f6-4803-b5ff-7db679972fce",
+    "Nodes": [
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "taskNumber",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 94,
+            "Title": "Is First Pickup?",
+            "Y": -170,
+            "Relations": [
+                "d5aa71c5-f908-4ecf-88ef-96fabe65fb3f"
+            ],
+            "Id": "0c348895-48f6-4803-b5ff-7db679972fce"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp state set ~ g_trigger task_next",
+            "X": 94,
+            "Title": "",
+            "Y": 2,
+            "Relations": [
+                "59f29cbc-6225-4b16-a32a-fda4c6dece84"
+            ],
+            "Id": "d5aa71c5-f908-4ecf-88ef-96fabe65fb3f"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp state set ~ d_forceHuntTime 800",
+            "X": 96,
+            "Title": "",
+            "Y": 172,
+            "Id": "59f29cbc-6225-4b16-a32a-fda4c6dece84"
+        }
+    ]
+}

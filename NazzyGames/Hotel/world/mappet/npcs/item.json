@@ -1,0 +1,1581 @@
+{
+    "States": {
+        "key_pool": {
+            "RespawnSaveUUID": 1,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "keypool_FirstPickup"
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "Immovable": 1,
+            "States": {
+                "item": "{id:\"ht:keypool\",Count:1b,Damage:0s}"
+            },
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PathDistance": 0.0f,
+            "RespawnDelay": 20,
+            "Invincible": 1,
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0f,
+                            0.51f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:keypool",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "ShadowSize": 0.0f,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "fakegamecard": {
+            "RespawnSaveUUID": 1,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "States": {
+                "item": "fakegamecard",
+                "remove": 1.0d
+            },
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PathDistance": 0.0f,
+            "RespawnDelay": 20,
+            "Invincible": 1,
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0f,
+                            0.51f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:gamecard",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "ShadowSize": 0.0f,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "keycard": {
+            "RespawnSaveUUID": 1,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "Immovable": 1,
+            "States": {
+                "item": "{id:\"ht:keycard\",Count:1b,Damage:0s}"
+            },
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PathDistance": 0.0f,
+            "RespawnDelay": 20,
+            "Invincible": 1,
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "P": [
+                                0.0f,
+                                0.0f,
+                                -4.5f
+                            ],
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0f,
+                            0.51f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:keycard",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "ShadowSize": 0.0f,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "tripod_off": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "DamageDelay": 0,
+            "TriggerTick": {
+                "Blocks": [
+                    {
+                        "Script": "tripod_tick",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 20,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "CanGetBurned": 0,
+            "CanFallDamage": 0,
+            "States": {
+                "item": "{id:\"ht:tripod\",Count:1b,Damage:0s}",
+                "trigger_shot": 0.0d,
+                "cooldown": 15.0d,
+                "on": 0.0d
+            },
+            "PathDistance": 0.0f,
+            "Invincible": 1,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Animation": {
+                    "Interp": 17,
+                    "Animates": 1b
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "P": [
+                                0.0f,
+                                3.71875f,
+                                7.5625f
+                            ],
+                            "R": [
+                                -92.74941f,
+                                0.969472f,
+                                49.985153f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            180.0f,
+                            180.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            -0.5f,
+                            0.0f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:tripod",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Damage": 0.0f,
+            "ShadowSize": 0.0f,
+            "Speed": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "Immovable": 1,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "RegenFrequency": 1,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "lighter": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "DamageDelay": 0,
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "CanGetBurned": 0,
+            "CanFallDamage": 0,
+            "States": {
+                "item": "{id:\"ht:lighter\",Count:1b,Damage:0s}"
+            },
+            "PathDistance": 0.0f,
+            "Invincible": 1,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "P": [
+                                0.0f,
+                                0.53125f,
+                                0.0f
+                            ],
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0625f,
+                            0.46875f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:lighter",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Damage": 0.0f,
+            "ShadowSize": 0.0f,
+            "Speed": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "Immovable": 1,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "RegenFrequency": 1,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "key_basement": {
+            "RespawnSaveUUID": 1,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "Immovable": 1,
+            "States": {
+                "item": "{id:\"ht:keybasement\",Count:1b,Damage:0s}"
+            },
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PathDistance": 0.0f,
+            "RespawnDelay": 20,
+            "Invincible": 1,
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0f,
+                            0.51f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:keybasement",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "ShadowSize": 0.0f,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "tripod": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "DamageDelay": 0,
+            "TriggerTick": {
+                "Blocks": [
+                    {
+                        "Script": "tripod_tick",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 20,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                    {
+                        "Target": 0,
+                        "Type": "sound",
+                        "Frequency": 1,
+                        "Sound": "mp.sounds:ht.interaction.tripod_place"
+                    }
+                ]
+            },
+            "Killable": 0,
+            "CanGetBurned": 0,
+            "CanFallDamage": 0,
+            "States": {
+                "item": "diamond_hoe",
+                "trigger_shot": 0.0d,
+                "cooldown": 10.0d,
+                "on": 1.0d
+            },
+            "PathDistance": 0.0f,
+            "Invincible": 1,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 1.0f,
+                    "Width": 0.5f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "BodyParts": [
+                    {
+                        "R": [
+                            180.0f,
+                            180.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            -0.5f,
+                            0.0f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:tripod",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Damage": 0.0f,
+            "ShadowSize": 0.0f,
+            "Speed": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "Immovable": 1,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "RegenFrequency": 1,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "gamecard": {
+            "RespawnSaveUUID": 1,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "gamecard_FirstPickup"
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "States": {
+                "item": "{id:\"ht:gamecard\",Count:1b,Damage:0s}",
+                "remove": 1.0d
+            },
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PathDistance": 0.0f,
+            "RespawnDelay": 20,
+            "Invincible": 1,
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0f,
+                            0.51f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:gamecard",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "ShadowSize": 0.0f,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "ball": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "JumpPower": 2.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "misc_ball",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "States": {
+                "item": "ball"
+            },
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "Invincible": 1,
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 1.0f,
+                    "Width": 1.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0f,
+                            0.51f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:poolball",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "default": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "DamageDelay": 0,
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "CanGetBurned": 0,
+            "CanFallDamage": 0,
+            "States": {
+                "item": "diamond_hoe"
+            },
+            "PathDistance": 0.0f,
+            "Invincible": 1,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "P": [
+                                0.0f,
+                                0.53125f,
+                                0.0f
+                            ],
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "minecraft:diamond_hoe",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Damage": 0.0f,
+            "ShadowSize": 0.0f,
+            "Speed": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "RegenFrequency": 1,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "pliers": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "DamageDelay": 0,
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "CanGetBurned": 0,
+            "CanFallDamage": 0,
+            "States": {
+                "item": "{id:\"ht:pliers\",Count:1b,Damage:0s}"
+            },
+            "PathDistance": 0.0f,
+            "Invincible": 1,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "P": [
+                                0.0f,
+                                0.53125f,
+                                1.0f
+                            ],
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0625f,
+                            0.46875f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:pliers",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Damage": 0.0f,
+            "ShadowSize": 0.0f,
+            "Speed": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "Immovable": 1,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "RegenFrequency": 1,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "jar": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "DamageDelay": 0,
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "CanGetBurned": 0,
+            "CanFallDamage": 0,
+            "States": {
+                "item": "{id:\"ht:jar\",Count:1b,Damage:0s}"
+            },
+            "PathDistance": 0.0f,
+            "Invincible": 1,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "P": [
+                                0.0f,
+                                0.53125f,
+                                1.0f
+                            ],
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0625f,
+                            0.46875f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:jar",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Damage": 0.0f,
+            "ShadowSize": 0.0f,
+            "Speed": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "Immovable": 1,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "RegenFrequency": 1,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        },
+        "coin": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "DamageDelay": 0,
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "CanGetBurned": 0,
+            "CanFallDamage": 0,
+            "States": {
+                "item": "coin"
+            },
+            "PathDistance": 0.0f,
+            "Invincible": 1,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 1.65f,
+                    "Enabled": 1b,
+                    "Height": 0.1f,
+                    "Width": 0.2f
+                },
+                "Skin": "b.a:empty/skins/texture.png",
+                "CustomPose": {
+                    "Size": [
+                        1.0f,
+                        1.0f,
+                        1.0f
+                    ],
+                    "Poses": {
+                        "cube": {
+                            "P": [
+                                0.0f,
+                                0.53125f,
+                                -3.3125f
+                            ],
+                            "R": [
+                                90.00001f,
+                                -1.0E-6f,
+                                7.0E-6f
+                            ]
+                        }
+                    }
+                },
+                "BodyParts": [
+                    {
+                        "R": [
+                            90.0f,
+                            0.0f,
+                            0.0f
+                        ],
+                        "T": [
+                            0.0f,
+                            0.0625f,
+                            0.46875f
+                        ],
+                        "Limb": "cube",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "ht:coin",
+                                "Count": 1b,
+                                "Damage": 0s
+                            }
+                        }
+                    }
+                ],
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.empty"
+            },
+            "Damage": 0.0f,
+            "ShadowSize": 0.0f,
+            "Speed": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "npc_item_interact",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Post": [
+            ],
+            "Immovable": 1,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "RegenFrequency": 1,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        }
+    }
+}

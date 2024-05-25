@@ -1,0 +1,28 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 30,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": -2147483648,
+                "Label": "text",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.25f,
+                0.25f,
+                0.25f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.7f,
+                0.0f
+            ]
+        }
+    ],
+    "Global": 0b
+}

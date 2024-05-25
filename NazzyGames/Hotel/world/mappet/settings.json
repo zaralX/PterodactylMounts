@@ -1,0 +1,505 @@
+{
+    "Triggers": {
+        "player_item_toss": {
+            "Blocks": [
+            ]
+        },
+        "entity_death": {
+            "Blocks": [
+            ]
+        },
+        "player_journal": {
+            "Blocks": [
+            ]
+        },
+        "server_tick": {
+            "Blocks": [
+                {
+                    "Script": "player_UpdateTick",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                },
+                {
+                    "Script": "server_UpdateTick20",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 20,
+                    "Inline": 0b,
+                    "Code": ""
+                },
+                {
+                    "Script": "demon_UpdateTick",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "entity_damaged": {
+            "Blocks": [
+                {
+                    "Script": "damage_cancel",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_lmb": {
+            "Blocks": [
+                {
+                    "Script": "player_leftClick",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "block_click": {
+            "Blocks": [
+            ]
+        },
+        "block_interact": {
+            "Blocks": [
+                {
+                    "Script": "player_block_interact",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                },
+                {
+                    "Script": "demon_block_interact",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                },
+                {
+                    "Script": "player_door_interact",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                },
+                {
+                    "Script": "player_block_interact2",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_logout": {
+            "Blocks": [
+                {
+                    "Script": "game_playerLeave",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_rmb": {
+            "Blocks": [
+            ]
+        },
+        "player_chat": {
+            "Blocks": [
+            ]
+        },
+        "player_death": {
+            "Blocks": [
+            ]
+        },
+        "player_open_container": {
+            "Blocks": [
+            ]
+        },
+        "player_close_container": {
+            "Blocks": [
+            ]
+        },
+        "state_changed": {
+            "Blocks": [
+            ]
+        },
+        "server_load": {
+            "Blocks": [
+            ]
+        },
+        "player_respawn": {
+            "Blocks": [
+            ]
+        },
+        "block_place": {
+            "Blocks": [
+            ]
+        },
+        "living_knockback": {
+            "Blocks": [
+            ]
+        },
+        "entity_attacked": {
+            "Blocks": [
+            ]
+        },
+        "living_equipment_change": {
+            "Blocks": [
+                {
+                    "Script": "player_slotChange",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_login": {
+            "Blocks": [
+                {
+                    "Script": "game_playerJoin",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_item_interact": {
+            "Blocks": [
+            ]
+        },
+        "projectile_impact": {
+            "Blocks": [
+                {
+                    "Script": "projectile_impact",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "block_break": {
+            "Blocks": [
+            ]
+        },
+        "player_entity_interact": {
+            "Blocks": [
+                {
+                    "Script": "demon_entity_interact",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                },
+                {
+                    "Script": "player_entity_interact",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_entity_leash": {
+            "Blocks": [
+            ]
+        },
+        "player_item_pickup": {
+            "Blocks": [
+            ]
+        }
+    },
+    "Hotkeys": {
+        "Hotkeys": [
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "demon_ab_X",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 45,
+                "Enabled": {
+                    "Condition": {
+                        "Blocks": [
+                            {
+                                "Not": 0b,
+                                "Target": 1,
+                                "Type": "state",
+                                "Or": 0b,
+                                "Comparison": 2,
+                                "Expression": "",
+                                "Value": 1.0d,
+                                "Id": "demon",
+                                "Selector": ""
+                            }
+                        ]
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "demon_ab_Q",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 16,
+                "Enabled": {
+                    "Condition": {
+                        "Blocks": [
+                            {
+                                "Not": 0b,
+                                "Target": 1,
+                                "Type": "state",
+                                "Or": 0b,
+                                "Comparison": 2,
+                                "Expression": "",
+                                "Value": 1.0d,
+                                "Id": "demon",
+                                "Selector": ""
+                            }
+                        ]
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "demon_ab_R",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 19,
+                "Enabled": {
+                    "Condition": {
+                        "Blocks": [
+                            {
+                                "Not": 0b,
+                                "Target": 1,
+                                "Type": "state",
+                                "Or": 0b,
+                                "Comparison": 2,
+                                "Expression": "",
+                                "Value": 1.0d,
+                                "Id": "demon",
+                                "Selector": ""
+                            }
+                        ]
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "demon_ab_F",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 33,
+                "Enabled": {
+                    "Condition": {
+                        "Blocks": [
+                            {
+                                "Not": 0b,
+                                "Target": 1,
+                                "Type": "state",
+                                "Or": 0b,
+                                "Comparison": 2,
+                                "Expression": "",
+                                "Value": 1.0d,
+                                "Id": "demon",
+                                "Selector": ""
+                            }
+                        ]
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "inv_close",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 18,
+                "Enabled": {
+                    "Condition": {
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "HUD_task",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 41,
+                "Enabled": {
+                    "Condition": {
+                        "Blocks": [
+                            {
+                                "Not": 0b,
+                                "Target": 1,
+                                "Type": "state",
+                                "Or": 0b,
+                                "Comparison": 8,
+                                "Expression": "false",
+                                "Value": 0.0d,
+                                "Id": "TaskBlocked",
+                                "Selector": ""
+                            }
+                        ]
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Type": "command",
+                            "Command": "/mp npc summon puddle default 11 14 18.5",
+                            "Frequency": 1
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 75,
+                "Enabled": {
+                    "Condition": {
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "UI_gameStart",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 15,
+                "Enabled": {
+                    "Condition": {
+                        "Blocks": [
+                            {
+                                "Not": 0b,
+                                "Target": 0,
+                                "Type": "state",
+                                "Or": 0b,
+                                "Comparison": 2,
+                                "Expression": "",
+                                "Value": 0.0d,
+                                "Id": "game_cutsceneIn",
+                                "Selector": ""
+                            }
+                        ]
+                    },
+                    "Mode": 1
+                }
+            }
+        ]
+    }
+}

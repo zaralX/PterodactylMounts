@@ -1,0 +1,39 @@
+{
+    "scheme": "1.3",
+    "name": "empty",
+    "texture": [ 64, 32 ],
+    "providesObj": true,
+    "legacyObj": false,
+    "limbs": {
+        "cube": {
+            "size": [ 4, 4, 4 ],
+            "texture": [ 0, 0 ],
+            "anchor": [ 0.5, 0.5, 0.5 ],
+            "origin": [ 0.0, 0.0, 0.0 ],
+            "specular": 0,
+            "holding": "right"
+        }
+    },
+    "poses": {
+        "standing": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {}
+        },
+        "flying": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {}
+        },
+        "sneaking": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {}
+        },
+        "riding": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {}
+        },
+        "sleeping": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {}
+        }
+    }
+}

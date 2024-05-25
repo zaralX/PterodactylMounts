@@ -1,0 +1,83 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 369098751,
+                            "Texture": "b.a:1_HOTEL/sprites/noise_hud.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 369098751,
+                            "Pose": {
+                                "S": [
+                                    -1.0f,
+                                    1.0f,
+                                    1.0f
+                                ]
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/noise_hud.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 369098751,
+                            "Pose": {
+                                "S": [
+                                    1.0f,
+                                    -1.0f,
+                                    1.0f
+                                ]
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/noise_hud.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                6.0f,
+                6.0f,
+                6.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                -0.01f
+            ]
+        }
+    ],
+    "Global": 0b
+}

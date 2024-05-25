@@ -1,0 +1,183 @@
+{
+    "curves": {},
+    "modifiers": [],
+    "fixtures": [
+        {
+            "type": "path",
+            "name": "",
+            "color": 0,
+            "duration": 200,
+            "modifiers": [
+                {
+                    "type": "shake",
+                    "enabled": true,
+                    "envelope": {
+                        "enabled": true,
+                        "relative": true,
+                        "startX": 0.0,
+                        "startDuration": 0.0,
+                        "endX": 63.0,
+                        "endDuration": 10.0,
+                        "interpolation": "LINEAR",
+                        "keyframes": false,
+                        "channel": [
+                            {
+                                "tick": 0,
+                                "value": 0.0,
+                                "interp": "LINEAR",
+                                "easing": "IN",
+                                "rx": 5.0,
+                                "ry": 0.0,
+                                "lx": 5.0,
+                                "ly": 0.0
+                            },
+                            {
+                                "tick": 30,
+                                "value": 1.0,
+                                "interp": "LINEAR",
+                                "easing": "IN",
+                                "rx": 5.0,
+                                "ry": 0.0,
+                                "lx": 5.0,
+                                "ly": 0.0
+                            }
+                        ],
+                        "visible": true
+                    },
+                    "active": 24,
+                    "shake": 9.25,
+                    "shakeAmount": 0.1
+                },
+                {
+                    "type": "shake",
+                    "enabled": true,
+                    "envelope": {
+                        "enabled": true,
+                        "relative": true,
+                        "startX": 117.0,
+                        "startDuration": 5.0,
+                        "endX": 49.0,
+                        "endDuration": 28.0,
+                        "interpolation": "LINEAR",
+                        "keyframes": false,
+                        "channel": [
+                            {
+                                "tick": 0,
+                                "value": 0.0,
+                                "interp": "LINEAR",
+                                "easing": "IN",
+                                "rx": 5.0,
+                                "ry": 0.0,
+                                "lx": 5.0,
+                                "ly": 0.0
+                            },
+                            {
+                                "tick": 30,
+                                "value": 1.0,
+                                "interp": "LINEAR",
+                                "easing": "IN",
+                                "rx": 5.0,
+                                "ry": 0.0,
+                                "lx": 5.0,
+                                "ly": 0.0
+                            }
+                        ],
+                        "visible": true
+                    },
+                    "active": 24,
+                    "shake": 4.5,
+                    "shakeAmount": 0.35
+                },
+                {
+                    "type": "angle",
+                    "enabled": true,
+                    "envelope": {
+                        "enabled": true,
+                        "relative": true,
+                        "startX": 110.0,
+                        "startDuration": 88.0,
+                        "endX": 0.0,
+                        "endDuration": 0.0,
+                        "interpolation": "LINEAR",
+                        "keyframes": false,
+                        "channel": [
+                            {
+                                "tick": 0,
+                                "value": 0.0,
+                                "interp": "LINEAR",
+                                "easing": "IN",
+                                "rx": 5.0,
+                                "ry": 0.0,
+                                "lx": 5.0,
+                                "ly": 0.0
+                            },
+                            {
+                                "tick": 30,
+                                "value": 1.0,
+                                "interp": "LINEAR",
+                                "easing": "IN",
+                                "rx": 5.0,
+                                "ry": 0.0,
+                                "lx": 5.0,
+                                "ly": 0.0
+                            }
+                        ],
+                        "visible": true
+                    },
+                    "angle": {
+                        "yaw": 0.0,
+                        "pitch": 0.0,
+                        "roll": 0.0,
+                        "fov": -2.0
+                    }
+                }
+            ],
+            "points": [
+                {
+                    "point": {
+                        "x": 11.57359162920606,
+                        "y": 14.819999885559085,
+                        "z": 6.012349639862002
+                    },
+                    "angle": {
+                        "yaw": -180.09674,
+                        "pitch": -1.9499191,
+                        "roll": 0.0,
+                        "fov": 40.0
+                    }
+                },
+                {
+                    "point": {
+                        "x": 11.56951699457116,
+                        "y": 14.819999885559085,
+                        "z": 3.512352918117458
+                    },
+                    "angle": {
+                        "yaw": -180.09674,
+                        "pitch": -1.9499191,
+                        "roll": 0.0,
+                        "fov": 40.0
+                    }
+                }
+            ],
+            "interpolation": "quad_out",
+            "interpolationAngle": "hermite",
+            "useSpeed": false,
+            "speed": [
+                {
+                    "tick": 0,
+                    "value": 1.0,
+                    "interp": "LINEAR",
+                    "easing": "IN",
+                    "rx": 5.0,
+                    "ry": 0.0,
+                    "lx": 5.0,
+                    "ly": 0.0
+                }
+            ],
+            "circularAutoCenter": true,
+            "circularX": 0.0,
+            "circularZ": 0.0
+        }
+    ]
+}

@@ -1,0 +1,256 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 10,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 0,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 3
+                            },
+                            "Texture": "blockbuster:textures/gui/icon.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": -16777216,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 3
+                            },
+                            "Texture": "blockbuster:textures/gui/icon.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 0,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 3
+                            },
+                            "Texture": "blockbuster:textures/gui/icon.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": -16777216,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 3
+                            },
+                            "Texture": "blockbuster:textures/gui/icon.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": -16777216,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 3
+                            },
+                            "Texture": "blockbuster:textures/gui/icon.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 3.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 0,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 3
+                            },
+                            "Texture": "blockbuster:textures/gui/icon.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                10.0f,
+                10.0f,
+                10.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 10,
+            "Ortho": 0b,
+            "Morph": {
+                "Loop": 1,
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 16777215,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 0
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/glitch.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 0.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 1509949439,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 0
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/glitch.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Lighting": 0b,
+                            "Color": 1509949439,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 0
+                            },
+                            "OffsetY": 53.5f,
+                            "Texture": "b.a:1_HOTEL/sprites/glitch.png",
+                            "Shaded": 0b,
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 1509949439,
+                            "OffsetX": 114.25f,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 0
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/glitch.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 1509949439,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 0
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/glitch.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Color": 16777215,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 2
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/glitch.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 2.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                5.0f,
+                5.0f,
+                5.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                -0.05f
+            ]
+        }
+    ],
+    "Global": 0b
+}

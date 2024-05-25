@@ -1,0 +1,253 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 55,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 0
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                        "S": [
+                                            1.0f,
+                                            0.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Color": 16556817,
+                                        "Label": "Текущее задание:",
+                                        "Shadow": 1b,
+                                        "Name": "label"
+                                    }
+                                },
+                                {
+                                    "T": [
+                                        0.0f,
+                                        0.3f,
+                                        0.0f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Max": 200,
+                                        "Label": "Описание текущего задания.",
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 0.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Color": 16556817,
+                                        "Label": "Текущее задание:",
+                                        "Shadow": 1b,
+                                        "Name": "label"
+                                    }
+                                },
+                                {
+                                    "T": [
+                                        0.0f,
+                                        0.3f,
+                                        0.0f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Max": 200,
+                                        "Label": "Описание текущего задания.",
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 10.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Color": 16556817,
+                                        "Label": "Текущее задание:",
+                                        "Shadow": 1b,
+                                        "Name": "label"
+                                    }
+                                },
+                                {
+                                    "T": [
+                                        0.0f,
+                                        0.3f,
+                                        0.0f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Max": 200,
+                                        "Label": "Описание текущего задания.",
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 40.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 5
+                            },
+                            "Skin": "b.a:empty/skins/texture.png",
+                            "CustomPose": {
+                                "Size": [
+                                    1.0f,
+                                    1.0f,
+                                    1.0f
+                                ],
+                                "Poses": {
+                                    "cube": {
+                                        "S": [
+                                            1.0f,
+                                            0.0f,
+                                            1.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Color": 16556817,
+                                        "Label": "Текущее задание:",
+                                        "Shadow": 1b,
+                                        "Name": "label"
+                                    }
+                                },
+                                {
+                                    "T": [
+                                        0.0f,
+                                        0.3f,
+                                        0.0f
+                                    ],
+                                    "Limb": "cube",
+                                    "Morph": {
+                                        "Max": 200,
+                                        "Label": "Описание текущего задания.",
+                                        "Name": "label"
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 5.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.25f,
+                0.25f,
+                0.25f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                2.28125f,
+                0.035f
+            ]
+        }
+    ],
+    "Global": 0b
+}

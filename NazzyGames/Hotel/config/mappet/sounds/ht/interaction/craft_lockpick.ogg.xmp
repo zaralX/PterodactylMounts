@@ -1,0 +1,176 @@
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 6.0-c003 79.164527, 2020/10/15-17:48:32        " rdfhash="1652A545C3DA9B235E293CE3501195BC" merged="0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
+   xmpMM:InstanceID="xmp.iid:d09bbf6e-ff4e-2849-a0f2-bd448faf70c0"
+   xmpMM:DocumentID="2a97315c-aa8b-6c02-b677-d8540000004f"
+   xmpMM:OriginalDocumentID="xmp.did:efc71564-b314-5c4e-945a-eb2c2e3f1ea2"
+   xmp:MetadataDate="2023-10-22T23:15:32+03:00"
+   xmp:ModifyDate="2023-10-22T23:15:32+03:00"
+   xmp:CreatorTool="Adobe Premiere Pro 2021.0 (Windows)"
+   xmp:CreateDate="2023-10-22T23:06:39+03:00"
+   xmpDM:audioSampleRate="48000"
+   xmpDM:audioSampleType="Compressed"
+   xmpDM:audioChannelType="Stereo"
+   xmpDM:startTimeScale="25"
+   xmpDM:startTimeSampleSize="1"
+   dc:format="Ogg Vorbis">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="102b3fa2-00d3-9d0e-95ce-42910000007c"
+      stEvt:when="2023-10-22T23:15:32+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:b3ba727b-5ad0-ca4b-87fe-ef7af9e836ed"
+      stEvt:when="2023-10-22T23:15:31+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:670dc447-0e9d-2b41-883a-48b1d441a977"
+      stEvt:when="2023-10-22T23:15:32+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:d09bbf6e-ff4e-2849-a0f2-bd448faf70c0"
+      stEvt:when="2023-10-22T23:15:32+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="7912d23e-e824-1ff3-4e82-11d1000000a2"
+      stRef:documentID="63137ae4-7d32-f89a-5bef-490c00000075"
+      stRef:fromPart="time:10160640000f254016000000d10160640000f254016000000"
+      stRef:toPart="time:0d10160640000f254016000000"
+      stRef:filePath="ES_Gear Wind 3 - SFX Producer (2).mp3"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="ea36f128-99c2-24cc-ea71-e5cf000000a2"
+      stRef:documentID="ad4e86f1-2e07-7219-49ae-0a8f00000075"
+      stRef:fromPart="time:40642560000f254016000000d71124480000f254016000000"
+      stRef:toPart="time:0d71124480000f254016000000"
+      stRef:filePath="ES_Scissors Open 4 - SFX Producer.mp3"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       xmpDM:artist="SFX Producer"
+       xmpDM:genre="Everyday"
+       xmpDM:composer="SFX Producer"
+       xmp:CreateDate="2014"
+       xmp:MetadataDate="2023-10-22T23:06:02+03:00"
+       xmp:ModifyDate="2023-10-22T23:06:02+03:00"
+       xmpMM:InstanceID="7912d23e-e824-1ff3-4e82-11d1000000a2"
+       xmpMM:DocumentID="63137ae4-7d32-f89a-5bef-490c00000075"
+       xmpMM:OriginalDocumentID="xmp.did:96f5bc8b-c27c-7a4c-a621-d9474242440e">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Gear Wind 3</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="7912d23e-e824-1ff3-4e82-11d1000000a2"
+         stEvt:when="2023-10-22T23:06:02+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmpDM:artist="SFX Producer"
+       xmpDM:genre="Office"
+       xmpDM:composer="SFX Producer"
+       xmp:CreateDate="2014"
+       xmp:MetadataDate="2023-10-22T23:13:05+03:00"
+       xmp:ModifyDate="2023-10-22T23:13:05+03:00"
+       xmpMM:InstanceID="ea36f128-99c2-24cc-ea71-e5cf000000a2"
+       xmpMM:DocumentID="ad4e86f1-2e07-7219-49ae-0a8f00000075"
+       xmpMM:OriginalDocumentID="xmp.did:921665fe-e8f9-3a45-a722-3e268f9a0b46">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Scissors Open 4</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="ea36f128-99c2-24cc-ea71-e5cf000000a2"
+         stEvt:when="2023-10-22T23:13:05+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:b3ba727b-5ad0-ca4b-87fe-ef7af9e836ed"
+    stRef:documentID="xmp.did:b3ba727b-5ad0-ca4b-87fe-ef7af9e836ed"
+    stRef:originalDocumentID="xmp.did:b3ba727b-5ad0-ca4b-87fe-ef7af9e836ed"/>
+   <creatorAtom:windowsAtom
+    creatorAtom:extension=".prproj"
+    creatorAtom:invocationFlags="/L"
+    creatorAtom:uncProjectPath="\\?\C:\Users\emikf\Documents\Adobe\Premiere Pro\15.0\boosty.prproj"/>
+   <creatorAtom:macAtom
+    creatorAtom:applicationCode="1347449455"
+    creatorAtom:invocationAppleEvent="1129468018"/>
+   <xmpDM:projectRef
+    xmpDM:type="movie"/>
+   <xmpDM:duration
+    xmpDM:value="13440"
+    xmpDM:scale="1/48000"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="AudioSamplesTimecode"
+    xmpDM:timeValue="00:00:00:00000"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00:00:00:00000"
+    xmpDM:timeFormat="AudioSamplesTimecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>

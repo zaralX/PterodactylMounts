@@ -1,0 +1,79 @@
+{
+    "Main": "21fbf4b6-6550-4d10-93a4-33fb9c4405f7",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/modelblock property -3 21 0 enabled false",
+            "X": 90,
+            "Title": "",
+            "Y": 772,
+            "Id": "a0c10e7e-b3e3-49e0-8fec-5bf60309f32e"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp state set ~ stream_scare 0",
+            "X": 90,
+            "Title": "",
+            "Y": -172,
+            "Relations": [
+                "dfddb9f8-ce0d-4e84-a77d-b14106d926ca"
+            ],
+            "Id": "21fbf4b6-6550-4d10-93a4-33fb9c4405f7"
+        },
+        {
+            "Type": "command",
+            "Command": "/modelblock property -3 21 0 enabled true",
+            "X": 88,
+            "Title": "",
+            "Y": -14,
+            "Relations": [
+                "45a6c894-f0e1-4a3d-b8ea-701c1359f395"
+            ],
+            "Id": "dfddb9f8-ce0d-4e84-a77d-b14106d926ca"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:ht.jumpscare.scare1 ambient @s ~ ~8000 ~ 1000",
+            "X": 90,
+            "Title": "",
+            "Y": 134,
+            "Relations": [
+                "711644ad-2092-474c-ab3e-0128a1d90364"
+            ],
+            "Id": "45a6c894-f0e1-4a3d-b8ea-701c1359f395"
+        },
+        {
+            "Type": "timer",
+            "Timer": 10,
+            "X": 90,
+            "Title": "",
+            "Y": 600,
+            "Relations": [
+                "a0c10e7e-b3e3-49e0-8fec-5bf60309f32e"
+            ],
+            "Id": "aa104a8a-4366-4036-90ec-6d08ee823186"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp hud setup @s HUD_flickering",
+            "X": 92,
+            "Title": "",
+            "Y": 284,
+            "Relations": [
+                "2061e941-b7bc-44bd-ab55-141578a4f96a"
+            ],
+            "Id": "711644ad-2092-474c-ab3e-0128a1d90364"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound mp.sounds:ht.events.camera_glitch ambient @s ~ ~1000 ~ 1000 0.8",
+            "X": 88,
+            "Title": "",
+            "Y": 450,
+            "Relations": [
+                "aa104a8a-4366-4036-90ec-6d08ee823186"
+            ],
+            "Id": "2061e941-b7bc-44bd-ab55-141578a4f96a"
+        }
+    ]
+}

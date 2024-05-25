@@ -1,0 +1,199 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Color": 805306367,
+                "Animation": {
+                    "Interp": 21,
+                    "Animates": 1b,
+                    "Duration": 5
+                },
+                "Texture": "b.a:1_HOTEL/ui/icon_hunt.png",
+                "Shaded": 0b,
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                35.0f,
+                35.0f,
+                35.0f
+            ],
+            "OrthoX": 1.0f,
+            "Translate": [
+                -50.0f,
+                35.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Color": 5197647,
+                "Label": "X",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                80.0f,
+                80.0f,
+                80.0f
+            ],
+            "OrthoX": 1.0f,
+            "Translate": [
+                -49.0f,
+                8.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Color": 805306367,
+                "Animation": {
+                    "Interp": 21,
+                    "Animates": 1b,
+                    "Duration": 5
+                },
+                "Texture": "b.a:1_HOTEL/ui/icon_teleport.png",
+                "Shaded": 0b,
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                35.0f,
+                35.0f,
+                35.0f
+            ],
+            "OrthoX": 1.0f,
+            "Translate": [
+                -90.0f,
+                35.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Color": 5197647,
+                "Label": "Q",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                80.0f,
+                80.0f,
+                80.0f
+            ],
+            "OrthoX": 1.0f,
+            "Translate": [
+                -89.0f,
+                8.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Color": 805306367,
+                "Animation": {
+                    "Interp": 21,
+                    "Animates": 1b,
+                    "Duration": 5
+                },
+                "Texture": "b.a:1_HOTEL/ui/icon_sound.png",
+                "Shaded": 0b,
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                35.0f,
+                35.0f,
+                35.0f
+            ],
+            "OrthoX": 1.0f,
+            "Translate": [
+                -129.0f,
+                35.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Color": 5197647,
+                "Label": "F",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                80.0f,
+                80.0f,
+                80.0f
+            ],
+            "OrthoX": 1.0f,
+            "Translate": [
+                -128.0f,
+                8.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Color": 805306367,
+                "Animation": {
+                    "Interp": 21,
+                    "Animates": 1b,
+                    "Duration": 5
+                },
+                "Texture": "b.a:1_HOTEL/ui/icon_visible.png",
+                "Shaded": 0b,
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                35.0f,
+                35.0f,
+                35.0f
+            ],
+            "OrthoX": 1.0f,
+            "Translate": [
+                -169.0f,
+                35.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Color": 5197647,
+                "Label": "R",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                80.0f,
+                80.0f,
+                80.0f
+            ],
+            "OrthoX": 1.0f,
+            "Translate": [
+                -167.0f,
+                8.0f,
+                0.0f
+            ]
+        }
+    ],
+    "Global": 0b
+}

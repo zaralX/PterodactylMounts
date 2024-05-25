@@ -1,0 +1,51 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 2,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": 1862270976,
+                "Max": 90,
+                "Label": "Компьютер",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.25f,
+                0.25f,
+                0.25f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.9f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 2,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": 1258291200,
+                "Max": 100,
+                "Label": "Стоимость: [e0 [fед.",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.25f,
+                0.25f,
+                0.25f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.8f,
+                0.0f
+            ]
+        }
+    ],
+    "Global": 0b
+}

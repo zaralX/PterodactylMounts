@@ -1,0 +1,174 @@
+{
+    "States": {
+        "default": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInteract": {
+                "Blocks": [
+                ]
+            },
+            "CanSwim": 0,
+            "Post": [
+            ],
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                    {
+                        "Script": "puddle_collide",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 5,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                    {
+                        "Script": "puddle_spawn",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "Killable": 0,
+            "CanGetBurned": 0,
+            "Immovable": 1,
+            "CanFallDamage": 0,
+            "States": {
+            },
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "Invincible": 1,
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+                "Loop": 1,
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 0.2f,
+                    "Enabled": 1b,
+                    "Height": 0.2f,
+                    "Width": 3.0f
+                },
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Hitbox": {
+                                "Eye": 0.9f,
+                                "Sneak": 0.2f,
+                                "Enabled": 1b,
+                                "Height": 0.2f,
+                                "Width": 2.5f
+                            },
+                            "Left": 24,
+                            "Top": 24,
+                            "Pose": {
+                                "P": [
+                                    0.0f,
+                                    0.05f,
+                                    0.0f
+                                ],
+                                "R": [
+                                    -90.0f,
+                                    45.0f,
+                                    0.0f
+                                ],
+                                "S": [
+                                    3.02f,
+                                    3.0f,
+                                    1.0f
+                                ]
+                            },
+                            "Right": 24,
+                            "Bottom": 24,
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 8
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/corrosion.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 0.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Hitbox": {
+                                "Eye": 0.9f,
+                                "Sneak": 0.2f,
+                                "Enabled": 1b,
+                                "Height": 0.2f,
+                                "Width": 2.5f
+                            },
+                            "Pose": {
+                                "P": [
+                                    0.0f,
+                                    0.05f,
+                                    0.0f
+                                ],
+                                "R": [
+                                    -90.0f,
+                                    45.0f,
+                                    0.0f
+                                ],
+                                "S": [
+                                    3.0f,
+                                    3.0f,
+                                    1.0f
+                                ]
+                            },
+                            "Animation": {
+                                "Interp": 21,
+                                "Animates": 1b,
+                                "Duration": 8
+                            },
+                            "Texture": "b.a:1_HOTEL/sprites/corrosion.png",
+                            "Name": "blockbuster.image"
+                        },
+                        "Duration": 8.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        }
+    }
+}

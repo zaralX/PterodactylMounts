@@ -1,0 +1,49 @@
+{
+    "scheme": "1.3",
+    "name": "1_HOTEL/hack_spring_ui",
+    "texture": [ 64, 32 ],
+    "providesObj": true,
+    "legacyObj": false,
+    "limbs": {
+        "cube1": {
+            "size": [ 4, 4, 4 ],
+            "texture": [ 0, 0 ],
+            "anchor": [ 0.5, 0.5, 0.5 ],
+            "origin": [ 0.0, 0.0, 0.0 ],
+            "specular": 0
+        },
+        "spring1": {
+            "size": [ 4, 4, 4 ],
+            "texture": [ 0, 0 ],
+            "anchor": [ 0.5, 0.5, 0.5 ],
+            "origin": [ 0.0, 0.815, 0.0 ],
+            "specular": 0
+        }
+    },
+    "poses": {
+        "standing": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {
+                "spring1": {
+                    "translate": [ 0.0, 13.04, 0.0 ]
+                }
+            }
+        },
+        "flying": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {}
+        },
+        "sneaking": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {}
+        },
+        "riding": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {}
+        },
+        "sleeping": {
+            "size": [ 1.0, 1.0, 1.0 ],
+            "limbs": {}
+        }
+    }
+}

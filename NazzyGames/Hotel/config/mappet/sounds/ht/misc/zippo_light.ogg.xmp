@@ -1,0 +1,172 @@
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 6.0-c003 79.164527, 2020/10/15-17:48:32        " rdfhash="F8BCCE46E4B3FDC7A6A0CD54BA17C77F" merged="0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
+   xmpMM:InstanceID="xmp.iid:69ec251e-710b-4348-89f1-05703796197e"
+   xmpMM:DocumentID="c996f7c4-f8c0-4176-479e-ac4200000049"
+   xmpMM:OriginalDocumentID="xmp.did:98aec3e8-f467-7142-a49a-3d8b30192de9"
+   xmp:MetadataDate="2023-09-09T17:49:42+03:00"
+   xmp:ModifyDate="2023-09-09T17:49:42+03:00"
+   xmp:CreatorTool="Adobe Premiere Pro 2021.0 (Windows)"
+   xmp:CreateDate="2023-09-09T17:46:55+03:00"
+   xmpDM:audioSampleRate="48000"
+   xmpDM:audioSampleType="Compressed"
+   xmpDM:audioChannelType="Stereo"
+   xmpDM:startTimeScale="60"
+   xmpDM:startTimeSampleSize="1"
+   dc:format="Ogg Vorbis">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="5940de01-ef80-0edb-b576-088b00000076"
+      stEvt:when="2023-09-09T17:49:42+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:837d21a1-c42a-d446-a6f6-98887d1f8a18"
+      stEvt:when="2023-09-09T17:49:42+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:f60c0d88-ad97-8742-bee9-6419521e3ffb"
+      stEvt:when="2023-09-09T17:49:42+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:69ec251e-710b-4348-89f1-05703796197e"
+      stEvt:when="2023-09-09T17:49:42+03:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="1f2a589a-2492-0eff-c004-88c50000009e"
+      stRef:documentID="789f435f-d5d4-e07b-81da-813100000071"
+      stRef:fromPart="time:38102247594f254016000000d114306742782f254016000000"
+      stRef:toPart="time:0d114306742782f254016000000"
+      stRef:filePath="ES_Zippo Lighter - SFX Producer.mp3"
+      stRef:maskMarkers="None"/>
+     <rdf:li
+      stRef:instanceID="48d62ea0-c78a-ef9f-8041-4732000000aa"
+      stRef:documentID="4c35b926-57a7-ebf1-368f-b6de0000007d"
+      stRef:fromPart="time:105839576650f254016000000d114306742782f254016000000"
+      stRef:toPart="time:0d114306742782f254016000000"
+      stRef:filePath="ES_Cigarette Lighter 2 - SFX Producer.mp3"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       xmpDM:genre="Misc. Metal"
+       xmp:CreateDate="2021"
+       xmp:MetadataDate="2023-09-09T17:46:31+03:00"
+       xmp:ModifyDate="2023-09-09T17:46:31+03:00"
+       xmpMM:InstanceID="1f2a589a-2492-0eff-c004-88c50000009e"
+       xmpMM:DocumentID="789f435f-d5d4-e07b-81da-813100000071"
+       xmpMM:OriginalDocumentID="xmp.did:a057f887-ab73-1541-8081-f78302a81ac2">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Zippo Lighter</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="1f2a589a-2492-0eff-c004-88c50000009e"
+         stEvt:when="2023-09-09T17:46:31+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmpDM:genre="Props"
+       xmp:CreateDate="2021"
+       xmp:MetadataDate="2023-09-09T17:46:59+03:00"
+       xmp:ModifyDate="2023-09-09T17:46:59+03:00"
+       xmpMM:InstanceID="48d62ea0-c78a-ef9f-8041-4732000000aa"
+       xmpMM:DocumentID="4c35b926-57a7-ebf1-368f-b6de0000007d"
+       xmpMM:OriginalDocumentID="xmp.did:55fa8e87-4a2a-a74a-9e12-feeac4decffa">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Cigarette Lighter 2</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="48d62ea0-c78a-ef9f-8041-4732000000aa"
+         stEvt:when="2023-09-09T17:46:59+03:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Windows)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:837d21a1-c42a-d446-a6f6-98887d1f8a18"
+    stRef:documentID="xmp.did:837d21a1-c42a-d446-a6f6-98887d1f8a18"
+    stRef:originalDocumentID="xmp.did:837d21a1-c42a-d446-a6f6-98887d1f8a18"/>
+   <creatorAtom:windowsAtom
+    creatorAtom:extension=".prproj"
+    creatorAtom:invocationFlags="/L"
+    creatorAtom:uncProjectPath="\\?\C:\Users\emikf\Documents\Adobe\Premiere Pro\15.0\boosty.prproj"/>
+   <creatorAtom:macAtom
+    creatorAtom:applicationCode="1347449455"
+    creatorAtom:invocationAppleEvent="1129468018"/>
+   <xmpDM:projectRef
+    xmpDM:type="movie"/>
+   <xmpDM:duration
+    xmpDM:value="21599"
+    xmpDM:scale="1/48000"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="AudioSamplesTimecode"
+    xmpDM:timeValue="00:00:00:00000"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00:00:00:00000"
+    xmpDM:timeFormat="AudioSamplesTimecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>

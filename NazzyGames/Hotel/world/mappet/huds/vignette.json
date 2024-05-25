@@ -1,0 +1,32 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Color": 16777215,
+                "Animation": {
+                    "Interp": 18,
+                    "Animates": 1b
+                },
+                "Texture": "b.a:1_HOTEL/ui/vignette.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                5.9f,
+                5.5f,
+                5.5f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                -0.2f
+            ]
+        }
+    ],
+    "Global": 0b
+}

@@ -1,0 +1,65 @@
+{
+    "States": {
+        "default": {
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "DamageDelay": 0,
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "TriggerEntityCollision": {
+                "Blocks": [
+                ]
+            },
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0,
+            "CanGetBurned": 0,
+            "CanFallDamage": 0,
+            "States": {
+                "playerModelName": "none"
+            },
+            "PathDistance": 0.0f,
+            "Invincible": 1,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Morph": {
+            },
+            "Damage": 0.0f,
+            "ShadowSize": 0.0f,
+            "Speed": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                ]
+            },
+            "Post": [
+            ],
+            "Immovable": 1,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "Unique": 1,
+            "Patrol": [
+            ],
+            "SteeringOffsets": [
+            ]
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 20,
+            "Ortho": 0b,
+            "Morph": {
+                "Left": 10,
+                "Texture": "b.a:1_HOTEL/bar_ui/ht_searchbar.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "OrthoX": 0.0f,
+            "Translate": [
+                -0.05f,
+                0.75f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 20,
+            "Ortho": 0b,
+            "Morph": {
+                "Label": "[cНет прогресса.",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.2f,
+                0.2f,
+                0.2f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.8f,
+                0.0f
+            ]
+        }
+    ],
+    "Global": 0b
+}

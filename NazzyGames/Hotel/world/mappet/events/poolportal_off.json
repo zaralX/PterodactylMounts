@@ -1,0 +1,35 @@
+{
+    "Main": "bfcc8f40-6837-469a-b723-271e0d2e07f7",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/modelblock morph -7 16 -31 {Skin:\"b.a:empty/skins/texture.png\",Settings:{Hands:1b},Name:\"blockbuster.empty\"}",
+            "X": 92,
+            "Title": "",
+            "Y": -26,
+            "Relations": [
+                "f1f61d20-2f8b-4c66-8684-43f4562e324a"
+            ],
+            "Id": "bfcc8f40-6837-469a-b723-271e0d2e07f7"
+        },
+        {
+            "Type": "command",
+            "Command": "/setblock -7 11 -31 ht:lockerroomm",
+            "X": 96,
+            "Title": "",
+            "Y": 298,
+            "Id": "0c025210-d66b-4c54-92bf-e019efb6efd7"
+        },
+        {
+            "Type": "command",
+            "Command": "/modelblock morph -7 17 -31 {Pose:{R:[90.0f,0.0f,0.0f],S:[2.0f,2.0f,2.0f]},Texture:\"b.a:1_HOTEL/sprites/blackspot.png\",Name:\"blockbuster.image\"}",
+            "X": 92,
+            "Title": "",
+            "Y": 130,
+            "Relations": [
+                "0c025210-d66b-4c54-92bf-e019efb6efd7"
+            ],
+            "Id": "f1f61d20-2f8b-4c66-8684-43f4562e324a"
+        }
+    ]
+}

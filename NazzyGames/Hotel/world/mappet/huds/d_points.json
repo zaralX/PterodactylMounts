@@ -1,0 +1,29 @@
+{
+    "Hide": 1b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": 1258291200,
+                "Max": 120,
+                "Label": "Очки стресса: [e0 [fед.",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.2f,
+                0.2f,
+                0.2f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                2.35f,
+                0.0f
+            ]
+        }
+    ],
+    "Global": 0b
+}

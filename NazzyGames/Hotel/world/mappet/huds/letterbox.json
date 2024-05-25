@@ -1,0 +1,49 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Color": -16777216,
+                "Texture": "blockbuster:textures/gui/icon.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                6.0f,
+                1.0f,
+                1.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                2.7f,
+                0.004f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Color": -16777216,
+                "Texture": "blockbuster:textures/gui/icon.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                6.0f,
+                1.0f,
+                1.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                -0.7f,
+                0.004f
+            ]
+        }
+    ],
+    "Global": 0b
+}

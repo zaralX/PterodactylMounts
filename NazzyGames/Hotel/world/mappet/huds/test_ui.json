@@ -1,0 +1,27 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Texture": "blockbuster:textures/gui/icon.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.25f,
+                0.25f,
+                0.25f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                -0.25f,
+                0.0f
+            ]
+        }
+    ],
+    "Global": 0b
+}
